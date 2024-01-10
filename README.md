@@ -15,4 +15,4 @@
 이러한 동기를 바탕으로, 음성 정보를 이용하여 주변 환경의 위급 상황을 인지하고 구체적인 범죄나 응급의료 등의 상황을 예측하는 위급 상황 탐지 모델을 제작했습니다.
 
 프로젝트에 대한 상세한 설명은 하기링크에서 확인하실 수 있습니다.
-https://abounding-tennis-da0.notion.site/a1f9b298e4534b89930ca5318210efe2?pvs=4
+<br>https://abounding-tennis-da0.notion.site/a1f9b298e4534b89930ca5318210efe2?pvs=4
