@@ -1,0 +1,5 @@
+<train>
+python ex_custom.py --cuda --pretrained --model_name=mn10_as --fold=1
+
+<inference>
+python emergency_inference.py --cuda --model_name=mn10_as --audio_path=./inference_test/14.도움요청_808219_label.wav --model_path=./inference_test/mn10_custom_12class_epoch_14_mAP_100.pt

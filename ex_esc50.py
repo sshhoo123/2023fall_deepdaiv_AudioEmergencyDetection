@@ -21,8 +21,8 @@ def train(args):
 
     # logging is done using wandb
     wandb.init(
-        project="ESC50",
-        notes="Fine-tune Models on ESC50.",
+        project="Audio",
+        notes="Audio classification.",
         tags=["Environmental Sound Classification", "Fine-Tuning"],
         config=args,
         name=args.experiment_name

@@ -15,15 +15,15 @@ from datasets.helpers.audiodatasets import PreprocessDataset, get_roll_func
 # follow the instructions here to get these 3 files:
 # https://github.com/kkoutini/PaSST/tree/main/esc50
 
-dataset_dir = None
+dataset_dir = r'C:\Audio_classification\EfficientAT\datasets\esc-50'
 
 assert dataset_dir is not None, "Specify ESC50 dataset location in variable 'dataset_dir'. " \
                                 "Check out the Readme file for further instructions. " \
                                 "https://github.com/fschmid56/EfficientAT/blob/main/README.md"
 
 dataset_config = {
-    'meta_csv': os.path.join(dataset_dir, "meta/esc50.csv"),
-    'audio_path': os.path.join(dataset_dir, "audio_32k/"),
+    'meta_csv': os.path.join(dataset_dir, "./meta/esc50.csv"),
+    'audio_path': os.path.join(dataset_dir, "./audio_32k/"),
     'num_of_classes': 50
 }
 
